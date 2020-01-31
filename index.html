@@ -1,166 +1,145 @@
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" text="text/css" href="./styles/main.css">
 
-    </head>
-
-    <body>
-        <header class="transparent_nav">
-            <nav class="nav_bar">
-                <img id="logo" src="./img/logo.png"> 
-               <ul id="nav_list" style="list-style-type: none;">
-                    <li class="nav_item"><a id="nav_item1">Our Story</a></li>
-                    <li class="nav_item"><a id="nav_item2">Products</a></li>
-                    <li class="nav_item"><a id="nav_item3">Journal</a></li>
-                    <li class="nav_item"><a id="nav_item4">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="cta">
-            <p id="cta_text">
-                Have a project in mind? We would love to hear from you!
-            </p>
-            <a id="cta_link">GET IN TOUCH WITH US</a>
-        </section>
-        <section class="services">
-            <h2 class="service_title">We are ARK Studio, We make awesome stuff.</h2>
-            <div class="separator">
-            <li class="separator_item" style="list-style-type: none;">  <img src="./img/separator.png"></li>
-            </div>
-            <div class="service_item" style="list-style-type: none;">    
-            <li class="service_item_1"> <img src="./img/s1.png"></li>
-            <li class="service_item_2"> <img src="./img/s2.png"></li>
-            <li class="service_item_3"> <img src="./img/s3.png"></li>
-            </div>
-            <div class="service_item">
-                <div class="desc">
-                <h1>slamco lebaries vellite</h1>
-                <p>porem Ipsum is simply dummy text
-                 of the printing and typesetting industry.</p>
-                </div>
-                <div class="desc">
-                 <h1>slamco lebaries vellite</h1>
-                 <p>porem Ipsum is simply dummy text
-                    of the printing and typesetting industry.</p>
-                </div>
-                <div class="desc">                  
-                      <h1>slamco lebaries velliete</h1>
-                    <p>porem Ipsum is simply dummy text
-                        of the printing and typesetting industry.</p>   
-                    </div>
-
-            </div>
-        </section>
-        
-        <section class="recent_work">
-            <img src="./img/w1.jpg" class="project">
-            <img src="./img/w2.jpg" class="project">
-            <img src="./img/w3.jpg" class="project">
-            <img src="./img/w4.jpg" class="project">
-            <img src="./img/w5.jpg" class="project">
-        </section>
-        <section id="testimonials_wrapper">
-            <h2 id="testimonial_title">Testimonials</h2>
-            <ul class="testimonial" style="list-style-type: none;">
-                <li id="testimonial_1">
-                    <div class="person_img">
-                        <img src="./img/client1.jpg">
-                    </div>
-                    <div class="person_name">
-                        <h2>John Doe/Manager</h2>
-                    </div>
-                    <div class="person_disc">
-                        Lorem Ipsum is simply dummy text
-                            of the printing and typesetting industry.
-                             Lorem Ipsum has been the industry's standard
-                              dummy text ever since the 1500s,
-                    </div>
-                </li>
-                <li id="testimonial_1">
-                    <div class="person_img">
-                        <img src="./img/client2.jpg">
-                    </div>
-                    <div class="person_name">
-                        <h2>John Doe/Manager</h2>
-                    </div>
-                    <div class="person_disc">
-                        Lorem Ipsum is simply dummy text
-                            of the printing and typesetting industry.
-                             Lorem Ipsum has been the industry's standard
-                              dummy text ever since the 1500s,
-                    </div>
-                </li>
-                <li class="testimonial_1">
-                    <div class="person_img">
-                        <img src="./img/client3.jpg">
-                    </div>
-                    <div class="person_name">
-                        <h2>John Doe/Manager</h2>
-                    </div>
-                    <div class="person_disc">
-                        Lorem Ipsum is simply dummy text
-                            of the printing and typesetting industry.
-                             Lorem Ipsum has been the industry's standard
-                              dummy text ever since the 1500s,
-                    </div>
-                </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="transparent_nav">
+        <img src="img/logo.png" alt="" class="logo">
+        <nav class="nav_bar">
+            <ul id="nav_list">
+                <li><a href="" id="nav_item_1">Our Story</a></li>
+                <li><a href="" id="nav_item_2">Products</a></li>
+                <li><a href="" id="nav_item_3">Journal</a></li>
+                <li><a href="" id="nav_item_4">Contact</a></li>
             </ul>
-        </section>
-      <section id="brand">
-        <img src="./img/client_logo.png">
-        <img src="./img/client_logo.png">
-        <img src="./img/client_logo.png">
-        <img src="./img/client_logo.png">
-        <img src="./img/client_logo.png">
-        <img src="./img/client_logo.png">
-      </section>
-        <footer class="footer">
-           <section id="quote">
+        </nav>
+    </header>
+
+    <section class="billboard">
+        <img src="img/billboard.jpg" alt="">
+    </section>
+
+    <section class="cta">
+        <p id="cta_text">Have a project in mind? We would love to hear from you!</p>
+        <a href="" id="cta_link">GET IN TOUCH WITH US</a>
+    </section>
+
+	<section class="services wrapper">
+        <h2>We are ARK Studio, we make awesome stuff.</h2>
+        <div class="separator">
+            <img src="img/separator.png" alt=""/>
+        </div>
+        <ul id='service_list'>
+            <li>
+                <img class="s_icons" src="img/s1.png" alt=""/>
+                <h2>Slamco laboris velitesse</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis.</p>
+            </li>
+
+            <li>
+                <img class="s_icons" src="img/s2.png" alt=""/>
+                <h2>Slamco laboris velitesse</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ullam?/p>
+            </li>
+
+            <li>
+                <img class="s_icons" src="img/s3.png" alt=""/>
+                <h2>Slamco laboris velitesse</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, fuga!</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="recent_work">
+        <img src="img/w1.jpg" alt="">
+        <img src="img/w2.jpg" alt="">
+        <img src="img/w3.jpg" alt="">
+        <img src="img/w4.jpg" alt="">
+        <img src="img/w5.jpg" alt="">
+    </section>
+
+    <section class="testimonials wrapper">
+        
+        <ul class="t-li">
+            <li>
+                <div class="t-col">
+                    <div class="testimonial">
+                        <img src="img/client1.jpg" alt="">
+                        <p class="t-name">John Doe / Manager</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti odit. Voluptates harum unde
+                            exercitationem. Harum non rerum hic sint.</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="t-col">
+                    <div class="testimonial">
+                        <img src="img/client2.jpg" alt="">
+                        <p class="t-name">John Doe / Manager</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti odit. Voluptates harum unde
+                            exercitationem. Harum non rerum hic sint.</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="t-col">
+                    <div class="testimonial">
+                        <img src="img/client3.jpg" alt="">
+                        <p class="t-name">John Doe / Manager</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti odit. Voluptates harum unde
+                            exercitationem. Harum non rerum hic sint.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <section id="quote">
             <p >Have a project in mind? We would love to hear from you!</p>
             <a href="#" id="getintouch">GET IN TOUCH WITH US</a>
            </section>
-           <section class="footer_component">
-            <div class="footer_1">
+        <div class="footer_widget">
+            
+            <div>
                 <h1>Location</h1>
-                <p>
-                    3301 New Mexico Avenue<br>
-                    Washington, DC 20016<br>
-                    (202)537-0787<br>
-                </p>
+                <p>3301 New Mexico Avenue</p>
+                <p>Washington, DC 20016</p>
+                <strong>(202) 537-0787</strong>
+               <br>
+                <br>
                 <img src="./img/social.png">
             </div>
-    
-            <div class="footer_1">
+            <div>
                 <h1>Company</h1>
-                <p>
-                    our story<br>
-                    Mission<br>
-                    Journal<br>
-                    Careers<br>
-                </p>
+                <ul id="comp_list">
+                    <li><a href="" id="comp_item_1">Our Story</a></li>
+                    <li><a href="" id="comp_item_2">Mission</a></li>
+                    <li><a href="" id="comp_item_3">Journal</a></li>
+                    <li><a href="" id="comp_item_4">Careers</a></li>
+                </ul>
             </div>
-            <div class="footer_1">
+            <div>
                 <h1>Support</h1>
-                <p>
-                    FAQ<br>
-                    Contact us<br>
-                    Policies<br>
-                </p>
+                <ul id="sup_list">
+                    <li><a id="sup_item_1" href="">FAQ</a></li>
+                    <li><a id="sup_item_2" href="">Contact Us</a></li>
+                    <li><a id="sup_item_3" href="">Policies</a></li>
+                </ul>
             </div>
-            <div class="footer_1">
+            <div>
                 <h1>ARK Studio</h1>
-                <p>
-                    Lorem ipsum dolor<br>
-                    sit, amet consectetur<br>
-                    adipisicing elit. Sequi vero<br>
-                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci sit iure earum illo. Assumenda, harum!</p>
             </div>
-        </section>
-           <section class="rights">
-            2014 ARK Studio - All rights Reserved
-           </section>
-        </footer>
-
-    </body>
+        </div>
+        <p class="rights">2014 ARK Studio - All Rights Reserved</p>
+    </footer>
+</body>
 </html>
